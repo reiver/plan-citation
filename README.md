@@ -24,6 +24,12 @@ To write a `.citation` file to a specific directory:
 plan-citation /path/to/directory
 ```
 
+To see available flags:
+
+```
+plan-citation --help
+```
+
 ## Author
 
 Software **plan-citation** was written by [Charles Iliya Krempeaux](http://reiver.link)
