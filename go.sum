@@ -1,0 +1,6 @@
+codeberg.org/reiver/go-erorr v0.0.0-20260310025817-d1223cc96950 h1:GeMa4aEu16CQC9ndLHfKClS75Ebd8hZOYmoN5uNEneE=
+codeberg.org/reiver/go-erorr v0.0.0-20260310025817-d1223cc96950/go.mod h1:1e9mYiJPaaQKhTXfxQvmiimoFxNQgtqdzxUgMbON3IY=
+codeberg.org/reiver/go-field v0.0.0-20260310024309-0a64a3ea37f9 h1:aYA5lhSiPrC98Xz8Joc+yArv07ZuJgQkils0SgEzHDU=
+codeberg.org/reiver/go-field v0.0.0-20260310024309-0a64a3ea37f9/go.mod h1:752EzuARz/8LnYzfPcxBFIIKstqok9fyTUmi5qnjn+Q=
+github.com/reiver/go-calltrace v0.0.0-20251216205616-3931a8c7b154 h1:3w3kacKCTHArAMZenoEO2qssZzJiQ9G8ZJgEvKerbuE=
+github.com/reiver/go-calltrace v0.0.0-20251216205616-3931a8c7b154/go.mod h1:b9j4dbN++ed+soAS/+wSCZ+OsZSm3CWiuzxps8nzkew=
