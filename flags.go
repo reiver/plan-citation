@@ -5,9 +5,12 @@ import (
 	"fmt"
 	"os"
 	"strings"
+
+	libopt "plan-citation/lib/opt"
 )
 
 var flagStdout bool
+var flagUnixTime libopt.OptionalInt64
 
 func init() {
 	// If we are running inside of a Go test, don't do all this.
@@ -16,6 +19,7 @@ func init() {
 	}
 
 	flag.BoolVar(&flagStdout, "stdout", false, "write to stdout instead of a file")
+	flag.Var(&flagUnixTime, "unix-time", "unix timestamp to use (default: current time)")
 
 	flag.Parse()
 }
