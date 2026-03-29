@@ -10,7 +10,7 @@ import (
 var flagStdout bool
 
 func init() {
-	// If we are running inside of a Go test, don't do all thius.
+	// If we are running inside of a Go test, don't do all this.
 	if nil != flag.Lookup("test.v") || strings.HasSuffix(os.Args[0], ".test") {
 		return
 	}
